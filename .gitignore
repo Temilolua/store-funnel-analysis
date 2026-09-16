@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# PostgreSQL local files
+*.sql.bak
+
+# Generated data files
+data/raw/*.csv
+data/processed/*.csv
