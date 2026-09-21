@@ -5,6 +5,7 @@ CREATE OR REPLACE VIEW session_funnel AS
 
 SELECT
     session_id,
+    MIN(event_timestamp)::date AS session_date,
     MAX(user_id) AS user_id,
     MAX(device) AS device,
     MAX(country) AS country,
