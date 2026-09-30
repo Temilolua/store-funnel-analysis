@@ -33,7 +33,7 @@ ci_upper = absolute_uplift + margin_of_error
 
 
 print("ShopSphere A/B Test Analysis")
-print("-----------------------------")
+print("---------------------------")
 
 print(f"Control conversion rate: {control_rate:.4%}")
 print(f"Variant conversion rate: {variant_rate:.4%}")
